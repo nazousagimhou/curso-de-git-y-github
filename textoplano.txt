@@ -1,2 +1,3 @@
-el texto plano se pude abrir en 
-casi cualquier  lado 
+El texto plano se pude abrir en 
+casi cualquier  lado.
+Lor archivos suelen ser pequeños. 
