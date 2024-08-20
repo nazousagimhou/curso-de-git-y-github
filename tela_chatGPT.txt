@@ -1,3 +1,2 @@
 Decripcion de tela para chatGPT.
-Crea una imagen de una cuadricula 10x10 con únicamente dos colores intercalados 
-y que tenga de piedra
+Crea una imagen de una cuadricula con únicamente dos colores que tenga de piedra
