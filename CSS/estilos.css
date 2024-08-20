@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif; /* Establece Arial como la fuente principal */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header, main, footer {
+    text-align: center; /* Centra el texto en el header, main y footer */
+    width: 80%; /* Ancho de los elementos centrados */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+article {
+    margin-top: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Asegura que el footer ocupe toda la anchura de la ventana */
+    padding: 10px 0;
+}
+
+/* Links */
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: black; /* Establece el color de los enlaces a negro */
+}
+
+a:hover {
+    color: gray; /* Cambia el color de los enlaces al pasar el mouse */
+}
