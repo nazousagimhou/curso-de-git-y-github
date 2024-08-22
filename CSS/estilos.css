@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-    color: gray; /* Cambia el color de los enlaces al pasar el mouse */
+    color: rgb(0, 1, 42); /* Cambia el color de los enlaces al pasar el mouse */
 }
 #imagen-blog {
     width: 50%; /* Reduce el ancho a la mitad del tamaño original */
