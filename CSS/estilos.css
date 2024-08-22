@@ -44,3 +44,7 @@ a {
 a:hover {
     color: gray; /* Cambia el color de los enlaces al pasar el mouse */
 }
+#imagen-blog {
+    width: 50%; /* Reduce el ancho a la mitad del tamaño original */
+    height: auto; /* Mantiene la proporción de la altura con respecto al nuevo ancho */
+}
