@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, sans-serif; /* Establece Arial como la fuente principal */
+    font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -47,5 +47,5 @@ a:hover {
 #imagen-blog {
     width: 50%; /* Reduce el ancho a la mitad del tamaño original */
     height: auto; /* Mantiene la proporción de la altura con respecto al nuevo ancho */
-    border-radius: 30%/50%; /* Hace que los bordes de la imagen sean completamente redondos */
+    border-radius: 40%/40%; /* Hace que los bordes de la imagen sean completamente redondos */
 }
