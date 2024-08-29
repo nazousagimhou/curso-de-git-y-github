@@ -5,13 +5,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end; /* Alinea el contenido al final (derecha) del contenedor flex */
-    align-items: right;
-    height: 100vh;
+    align-items: center;
+    height: auto;
+}
+main {
+    display: flex;
+    justify-content: center; /* Empuja el contenido a la derecha */
+    width: 100%; /* Ocupa el ancho completo para permitir la alineación correcta */
 }
 
-header, main, footer {
+main .texto {
+    text-align: center; /* Alinea el texto hacia la izquierda */
+    width: 50%; /* Define el ancho del área de texto para controlar dónde comienza el texto */
+}
+
+header, footer {
     text-align: center; /* Centra el texto en el header, main y footer */
-    width: 80%; /* Ancho de los elementos centrados */
+    width: 100%; /* Ancho de los elementos centrados */
 }
 
 nav ul {
@@ -42,10 +52,13 @@ a {
 }
 
 a:hover {
-    color: rgb(6, 9, 233); /* Cambia el color de los enlaces al pasar el mouse */
+    color: grey(4, 4, 13); /* Cambia el color de los enlaces al pasar el mouse */
 }
+
 #imagen-blog {
-    width: 35%; /* Reduce el ancho a la mitad del tamaño original */
+    float: left; /* Hace que la imagen flote hacia el lado izquierdo */
+    margin-right: 20px; /* Añade espacio entre la imagen y el texto a su derecha */
+    width: 20%; /* Reduce el ancho a la mitad del tamaño original */
     height: auto; /* Mantiene la proporción de la altura con respecto al nuevo ancho */
-    border-radius: 40%/40%; /* Hace que los bordes de la imagen sean completamente redondos */
+    border-radius: 50%; /* Hace que los bordes de la imagen sean completamente redondos */
 }
